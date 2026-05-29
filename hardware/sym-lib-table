@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "ck635-037")(type "KiCad")(uri "${KIPRJMOD}/ck635-037.kicad_sym")(options "")(descr ""))
+  (lib (name "midipawn")(type "KiCad")(uri "${KIPRJMOD}/midipawn.kicad_sym")(options "")(descr ""))
+)
