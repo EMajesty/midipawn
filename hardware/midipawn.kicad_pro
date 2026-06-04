@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.25
         }
       },
       "diff_pair_dimensions": [
@@ -58,24 +58,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        [
-          "starved_thermal|87630000|86680001|e2395b68-9fe9-4e3a-b689-4d0dd246736a|c89436bc-0059-4fb0-9b6c-bbfe3cc8347d|B.Cu",
-          ""
-        ],
-        [
-          "starved_thermal|90170000|86680001|bfcbc088-85fc-4ca0-97ac-51c38d49f8d9|9ebe330c-090b-4a7c-825f-01fe894b92ab|F.Cu",
-          ""
-        ],
-        [
-          "starved_thermal|90170000|86680001|bfcbc088-85fc-4ca0-97ac-51c38d49f8d9|9ebe330c-090b-4a7c-825f-01fe894b92ab|In1.Cu",
-          ""
-        ],
-        [
-          "starved_thermal|90170000|86680001|bfcbc088-85fc-4ca0-97ac-51c38d49f8d9|9ebe330c-090b-4a7c-825f-01fe894b92ab|In2.Cu",
-          ""
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -519,10 +502,10 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "gerber/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "midipawn.step",
       "svg": "",
       "vrml": ""
     },

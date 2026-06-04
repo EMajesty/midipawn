@@ -4629,7 +4629,7 @@
 	)
 	(wire
 		(pts
-			(xy 381 96.52) (xy 373.38 96.52)
+			(xy 378.46 96.52) (xy 373.38 96.52)
 		)
 		(stroke
 			(width 0)
@@ -5289,7 +5289,7 @@
 	)
 	(wire
 		(pts
-			(xy 396.24 93.98) (xy 400.05 93.98)
+			(xy 393.7 93.98) (xy 400.05 93.98)
 		)
 		(stroke
 			(width 0)
@@ -6149,7 +6149,7 @@
 	)
 	(wire
 		(pts
-			(xy 368.3 91.44) (xy 381 91.44)
+			(xy 368.3 91.44) (xy 378.46 91.44)
 		)
 		(stroke
 			(width 0)
@@ -8249,6 +8249,16 @@
 	)
 	(wire
 		(pts
+			(xy 393.7 91.44) (xy 394.97 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f310cde2-2904-4775-8efd-8f67b790eb39")
+	)
+	(wire
+		(pts
 			(xy 273.05 167.64) (xy 274.32 167.64)
 		)
 		(stroke
@@ -8396,6 +8406,16 @@
 			(type default)
 		)
 		(uuid "fddfa0bd-b892-47ef-9f1a-565bdd2977d8")
+	)
+	(wire
+		(pts
+			(xy 394.97 91.44) (xy 394.97 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe5866e4-c8c0-483e-88d8-82d2703a45c1")
 	)
 	(wire
 		(pts
@@ -10144,7 +10164,7 @@
 	)
 	(symbol
 		(lib_id "Isolator:6N137")
-		(at 388.62 93.98 0)
+		(at 386.08 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10153,7 +10173,7 @@
 		(fields_autoplaced yes)
 		(uuid "026fc93c-ba34-4fe0-892c-fa2f81da74d3")
 		(property "Reference" "U2"
-			(at 391.7381 81.28 0)
+			(at 389.1981 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10162,7 +10182,7 @@
 			)
 		)
 		(property "Value" "6N137"
-			(at 391.7381 83.82 0)
+			(at 389.1981 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10171,7 +10191,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
-			(at 388.62 106.68 0)
+			(at 386.08 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10180,7 +10200,7 @@
 			)
 		)
 		(property "Datasheet" "https://docs.broadcom.com/docs/AV02-0940EN"
-			(at 367.03 80.01 0)
+			(at 364.49 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10189,7 +10209,7 @@
 			)
 		)
 		(property "Description" "Single High Speed LSTTL/TTL Compatible Optocoupler with enable, dV/dt 1000/us, VCM 10, max 7V VCC, DIP-8"
-			(at 388.62 93.98 0)
+			(at 386.08 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11143,6 +11163,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 394.97 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1589555b-aa2a-47e7-8a6a-b1d55474da87")
+		(property "Reference" "R24"
+			(at 397.51 99.0599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10K"
+			(at 397.51 101.5999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
+			(at 393.192 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 394.97 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 394.97 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "55edba10-6a9e-47b2-bfa2-9f2ac7e49d36")
+		)
+		(pin "2"
+			(uuid "eb039ca0-45e0-4b6e-ad18-b8d2ee4f3a72")
+		)
+		(instances
+			(project "midipawn"
+				(path "/8c059e4c-6bcb-4300-9e70-551520422cef"
+					(reference "R24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+9V")
 		(at 99.06 66.04 0)
 		(unit 1)
@@ -11771,7 +11861,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 388.62 104.14 0)
+		(at 386.08 104.14 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11780,7 +11870,7 @@
 		(fields_autoplaced yes)
 		(uuid "1feae43b-a024-45a0-a6bf-3b03c4f5d227")
 		(property "Reference" "#PWR037"
-			(at 388.62 110.49 0)
+			(at 386.08 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11789,7 +11879,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 388.62 109.22 0)
+			(at 386.08 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11797,7 +11887,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 388.62 104.14 0)
+			(at 386.08 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11806,7 +11896,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 388.62 104.14 0)
+			(at 386.08 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11815,7 +11905,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 388.62 104.14 0)
+			(at 386.08 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17981,6 +18071,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 394.97 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b848bd8d-e666-4129-b59c-4361c296a25e")
+		(property "Reference" "#PWR065"
+			(at 394.97 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 394.97 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 394.97 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 394.97 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 394.97 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4e0a77d4-7512-460a-92fb-43ee61ba2d38")
+		)
+		(instances
+			(project "midipawn"
+				(path "/8c059e4c-6bcb-4300-9e70-551520422cef"
+					(reference "#PWR065")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Transistor_BJT:2N3904")
 		(at 219.71 223.52 0)
 		(unit 1)
@@ -19009,7 +19165,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 388.62 83.82 0)
+		(at 386.08 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19018,7 +19174,7 @@
 		(fields_autoplaced yes)
 		(uuid "d2342ab3-a9c9-4ea4-acbf-2abcc10b6b05")
 		(property "Reference" "#PWR036"
-			(at 388.62 87.63 0)
+			(at 386.08 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19027,7 +19183,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 388.62 78.74 0)
+			(at 386.08 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19035,7 +19191,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 388.62 83.82 0)
+			(at 386.08 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19044,7 +19200,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 388.62 83.82 0)
+			(at 386.08 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19053,7 +19209,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 388.62 83.82 0)
+			(at 386.08 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
