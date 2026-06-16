@@ -2111,7 +2111,7 @@
 		(descr "TO-92 leads in-line, wide, drill 0.75mm (see NXP sot054_po.pdf)")
 		(tags "to-92 sc-43 sc-43a sot54 PA33 transistor")
 		(property "Reference" "Q2"
-			(at 2.54 3.81 0)
+			(at 2.54 -1.905 90)
 			(layer "F.SilkS")
 			(uuid "63f638af-a821-47a2-b59b-821ab437f2f5")
 			(effects
@@ -2379,7 +2379,7 @@
 		(descr "TO-92 leads in-line, wide, drill 0.75mm (see NXP sot054_po.pdf)")
 		(tags "to-92 sc-43 sc-43a sot54 PA33 transistor")
 		(property "Reference" "Q3"
-			(at 2.54 3.81 0)
+			(at 2.54 -1.905 270)
 			(layer "F.SilkS")
 			(uuid "ed215898-b032-43f1-82e7-4aefad2ffead")
 			(effects
@@ -3201,7 +3201,7 @@
 		(descr "TO-92 leads in-line, wide, drill 0.75mm (see NXP sot054_po.pdf)")
 		(tags "to-92 sc-43 sc-43a sot54 PA33 transistor")
 		(property "Reference" "Q4"
-			(at 2.54 3.81 0)
+			(at 2.54 -1.905 90)
 			(layer "F.SilkS")
 			(uuid "86115314-f878-4af2-aadc-1c6fbddf3e68")
 			(effects
@@ -3872,7 +3872,7 @@
 		(descr "TO-92 leads in-line, wide, drill 0.75mm (see NXP sot054_po.pdf)")
 		(tags "to-92 sc-43 sc-43a sot54 PA33 transistor")
 		(property "Reference" "Q6"
-			(at 2.54 3.81 0)
+			(at 2.54 -1.905 90)
 			(layer "F.SilkS")
 			(uuid "0124cf73-a2c6-419c-a21a-8d7b562b8aa8")
 			(effects
@@ -4706,7 +4706,7 @@
 		(descr "TO-92 leads in-line, wide, drill 0.75mm (see NXP sot054_po.pdf)")
 		(tags "to-92 sc-43 sc-43a sot54 PA33 transistor")
 		(property "Reference" "Q9"
-			(at 2.54 3.81 0)
+			(at 2.54 -1.905 90)
 			(layer "F.SilkS")
 			(uuid "143a2498-8cde-4a20-a6fa-284e23b7bed8")
 			(effects
@@ -5939,7 +5939,7 @@
 		(descr "TO-92 leads in-line, wide, drill 0.75mm (see NXP sot054_po.pdf)")
 		(tags "to-92 sc-43 sc-43a sot54 PA33 transistor")
 		(property "Reference" "Q7"
-			(at 2.54 3.81 0)
+			(at 2.54 -1.905 90)
 			(layer "F.SilkS")
 			(uuid "4dad377e-53b5-4aa3-ae94-82dd471883ec")
 			(effects
@@ -6207,7 +6207,7 @@
 		(descr "TO-92 leads in-line, wide, drill 0.75mm (see NXP sot054_po.pdf)")
 		(tags "to-92 sc-43 sc-43a sot54 PA33 transistor")
 		(property "Reference" "Q5"
-			(at 2.54 3.81 0)
+			(at 2.54 -1.905 90)
 			(layer "F.SilkS")
 			(uuid "d3ada86b-b70a-4b8b-9f04-f11f1cdc5ead")
 			(effects
@@ -9149,7 +9149,7 @@
 		(descr "TO-92 leads in-line, wide, drill 0.75mm (see NXP sot054_po.pdf)")
 		(tags "to-92 sc-43 sc-43a sot54 PA33 transistor")
 		(property "Reference" "Q8"
-			(at 2.54 3.81 0)
+			(at 2.54 -1.905 90)
 			(layer "F.SilkS")
 			(uuid "1a28deba-c152-4344-9a68-1417e50c41ae")
 			(effects
@@ -12338,7 +12338,7 @@
 		(descr "TO-92 leads in-line, wide, drill 0.75mm (see NXP sot054_po.pdf)")
 		(tags "to-92 sc-43 sc-43a sot54 PA33 transistor")
 		(property "Reference" "Q1"
-			(at 2.54 3.81 0)
+			(at 2.54 -1.905 90)
 			(layer "F.SilkS")
 			(uuid "c8fb146d-db33-406b-8bf5-b617dac07740")
 			(effects
@@ -15577,7 +15577,7 @@
 		(descr "TO-92 leads in-line, wide, drill 0.75mm (see NXP sot054_po.pdf)")
 		(tags "to-92 sc-43 sc-43a sot54 PA33 transistor")
 		(property "Reference" "Q10"
-			(at 2.54 3.81 0)
+			(at 2.54 -1.905 90)
 			(layer "F.SilkS")
 			(uuid "fddb048d-8f2f-4361-93c2-38c4f34984c0")
 			(effects
