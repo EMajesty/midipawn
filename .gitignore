@@ -7,6 +7,11 @@ fp-info-cache
 
 # PlatformIO
 .pio/
+compile_commands.json
+
+# clangd
+.clangd
+.cache/
 
 # Nix / direnv
 .direnv/
