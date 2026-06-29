@@ -3872,7 +3872,7 @@
 		(uuid "329d5bc1-9a02-459b-ab0c-2b9e883fb475")
 	)
 	(junction
-		(at 110.49 73.66)
+		(at 125.73 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "34e5c5f7-2417-4a24-a047-624a3aef1247")
@@ -3986,7 +3986,7 @@
 		(uuid "4f4d91a2-555a-4809-8f12-7fd84859e408")
 	)
 	(junction
-		(at 99.06 66.04)
+		(at 114.3 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4f76d89f-8c44-4184-ad66-de7af8da3a1b")
@@ -4352,7 +4352,7 @@
 		(uuid "ad74b368-3698-4de5-beb8-d058de5a5f3a")
 	)
 	(junction
-		(at 121.92 66.04)
+		(at 137.16 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ad77200b-3911-483b-a419-ed7eac17e0d4")
@@ -4719,7 +4719,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 66.04) (xy 102.87 66.04)
+			(xy 114.3 63.5) (xy 118.11 63.5)
 		)
 		(stroke
 			(width 0)
@@ -5319,7 +5319,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 66.04) (xy 121.92 66.04)
+			(xy 133.35 63.5) (xy 137.16 63.5)
 		)
 		(stroke
 			(width 0)
@@ -6529,7 +6529,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 73.66) (xy 110.49 73.66)
+			(xy 114.3 71.12) (xy 125.73 71.12)
 		)
 		(stroke
 			(width 0)
@@ -6709,7 +6709,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 73.66) (xy 121.92 73.66)
+			(xy 125.73 71.12) (xy 137.16 71.12)
 		)
 		(stroke
 			(width 0)
@@ -10094,7 +10094,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 121.92 69.85 0)
+		(at 137.16 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10103,7 +10103,7 @@
 		(fields_autoplaced yes)
 		(uuid "016ff48b-e78e-417b-a216-a2a430b5f8c5")
 		(property "Reference" "C2"
-			(at 125.73 68.5799 0)
+			(at 140.97 66.0399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10112,7 +10112,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 125.73 71.1199 0)
+			(at 140.97 68.5799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10121,7 +10121,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:C_Rect_L7.0mm_W2.5mm_P5.00mm"
-			(at 122.8852 73.66 0)
+			(at 138.1252 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10130,7 +10130,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 121.92 69.85 0)
+			(at 137.16 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10139,7 +10139,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 121.92 69.85 0)
+			(at 137.16 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11234,7 +11234,7 @@
 	)
 	(symbol
 		(lib_id "power:+9V")
-		(at 99.06 66.04 0)
+		(at 114.3 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11243,7 +11243,7 @@
 		(fields_autoplaced yes)
 		(uuid "17bb7c61-6df8-4293-8476-57602d244d10")
 		(property "Reference" "#PWR01"
-			(at 99.06 69.85 0)
+			(at 114.3 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11252,7 +11252,7 @@
 			)
 		)
 		(property "Value" "+9V"
-			(at 99.06 60.96 0)
+			(at 114.3 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11260,7 +11260,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 99.06 66.04 0)
+			(at 114.3 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11269,7 +11269,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 99.06 66.04 0)
+			(at 114.3 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11278,7 +11278,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+9V\""
-			(at 99.06 66.04 0)
+			(at 114.3 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15500,7 +15500,7 @@
 	)
 	(symbol
 		(lib_id "Regulator_Linear:L7805")
-		(at 110.49 66.04 0)
+		(at 125.73 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15509,7 +15509,7 @@
 		(fields_autoplaced yes)
 		(uuid "6dcc8c53-4ee8-4ec8-905f-b5446dee9f60")
 		(property "Reference" "U1"
-			(at 110.49 59.69 0)
+			(at 125.73 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15517,7 +15517,7 @@
 			)
 		)
 		(property "Value" "L7805"
-			(at 110.49 62.23 0)
+			(at 125.73 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15525,7 +15525,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
-			(at 111.125 69.85 0)
+			(at 126.365 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15536,7 +15536,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf"
-			(at 110.49 67.31 0)
+			(at 125.73 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15545,7 +15545,7 @@
 			)
 		)
 		(property "Description" "Positive 1.5A 35V Linear Regulator, Fixed Output 5V, TO-220/TO-263/TO-252"
-			(at 110.49 66.04 0)
+			(at 125.73 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15922,7 +15922,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 99.06 69.85 0)
+		(at 114.3 67.31 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15931,7 +15931,7 @@
 		(dnp no)
 		(uuid "794f91b9-089e-4a32-97d9-6b2c255a583b")
 		(property "Reference" "C1"
-			(at 95.25 68.5799 0)
+			(at 110.49 66.0399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15940,7 +15940,7 @@
 			)
 		)
 		(property "Value" "220n"
-			(at 95.25 71.1199 0)
+			(at 110.49 68.5799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15949,7 +15949,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm"
-			(at 98.0948 73.66 0)
+			(at 113.3348 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15958,7 +15958,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 99.06 69.85 0)
+			(at 114.3 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15967,7 +15967,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 99.06 69.85 0)
+			(at 114.3 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18298,7 +18298,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 110.49 73.66 0)
+		(at 125.73 71.12 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18307,7 +18307,7 @@
 		(fields_autoplaced yes)
 		(uuid "c2950d85-6c60-4b2c-85e7-ceea1d61b08d")
 		(property "Reference" "#PWR03"
-			(at 110.49 80.01 0)
+			(at 125.73 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18316,7 +18316,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 110.49 78.74 0)
+			(at 125.73 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18324,7 +18324,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 110.49 73.66 0)
+			(at 125.73 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18333,7 +18333,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 110.49 73.66 0)
+			(at 125.73 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18342,7 +18342,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 110.49 73.66 0)
+			(at 125.73 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19299,7 +19299,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 121.92 66.04 0)
+		(at 137.16 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19308,7 +19308,7 @@
 		(fields_autoplaced yes)
 		(uuid "d5246e57-f337-4682-a65d-e57cd556d566")
 		(property "Reference" "#PWR05"
-			(at 121.92 69.85 0)
+			(at 137.16 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19317,7 +19317,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 121.92 60.96 0)
+			(at 137.16 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19325,7 +19325,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 121.92 66.04 0)
+			(at 137.16 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19334,7 +19334,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 121.92 66.04 0)
+			(at 137.16 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19343,7 +19343,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 121.92 66.04 0)
+			(at 137.16 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
