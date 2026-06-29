@@ -1,0 +1,17 @@
+# KiCad
+*-backups/
+_autosave-*
+*.bak
+*~
+fp-info-cache
+
+# PlatformIO
+.pio/
+
+# Nix / direnv
+.direnv/
+result
+result-*
+
+# OS
+.DS_Store
