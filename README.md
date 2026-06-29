@@ -1,10 +1,10 @@
 # midipawn
 
-MIDI-controlled relay switcher built on the Raspberry Pi Pico (RP2040). Accepts MIDI over USB and 5-pin DIN (GPIO 9). Controls 10 bypass relays via GPIO 10-19.
+MIDI-controlled relay switcher built on the Raspberry Pi Pico (RP2040). Accepts MIDI over USB and TRS (GPIO 9). Controls 10 bypass relays via GPIO 10-19.
 
 ## MIDI interface
 
-The device accepts messages on both USB MIDI and serial MIDI (DIN input on GPIO 9). Default MIDI channel is **6**.
+The device accepts messages on both USB MIDI and serial MIDI (TRS input on GPIO 9). Default MIDI channel is **6**.
 
 ### Relay control
 
